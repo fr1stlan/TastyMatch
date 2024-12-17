@@ -28,13 +28,13 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/profile_itemTitle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Title"
                 android:textSize="20sp"
                 android:maxLines="1"
                 android:textColor="@color/black"
-                android:id="@+id/item_title"
                 android:layout_marginStart="15sp"/>
 
         </LinearLayout>

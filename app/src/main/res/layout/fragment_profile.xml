@@ -13,7 +13,7 @@
     android:layout_height="match_parent">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile_image"
+        android:id="@+id/profile_userImage"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="50dp"
@@ -22,20 +22,21 @@
         app:civ_border_width="3dp"/>
 
     <TextView
+        android:id="@+id/profile_userName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
         android:textSize="25sp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="80dp"
-        android:layout_toEndOf="@+id/profile_image" />
+        android:layout_toEndOf="@+id/profile_userImage" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/profile_rec_viewer"
+        android:id="@+id/profile_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30sp"
-        android:layout_below="@+id/profile_image"
+        android:layout_below="@+id/profile_userImage"
         android:layout_marginTop="20sp" />
 
 </RelativeLayout>
