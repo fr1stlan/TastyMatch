@@ -4,6 +4,8 @@ public class Receipts {
 
     private String title, image, description, kitchen;
 
+    public Receipts() {}
+
     public Receipts(String title, String image, String description, String kitchen) {
         this.title = title;
         this.image = image;
