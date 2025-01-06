@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "8076399877",
-    "project_id": "tastymatch-78410",
-    "storage_bucket": "tastymatch-78410.firebasestorage.app"
+    "project_number": "92570380724",
+    "firebase_url": "https://tastymatch-25c6c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tastymatch-25c6c",
+    "storage_bucket": "tastymatch-25c6c.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:8076399877:android:391c2c8d4451c415b3d36c",
+        "mobilesdk_app_id": "1:92570380724:android:2a6a174517f1e514256ae1",
         "android_client_info": {
           "package_name": "com.cao.tastymatch"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCHTSsuwKmbClUTB-VImNnLLCpFytbOcws"
+          "current_key": "AIzaSyAWim3UdRCOmZIqZNFlK9lGV1Im46ejwhw"
         }
       ],
       "services": {

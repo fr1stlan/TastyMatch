@@ -1,12 +1,20 @@
 package com.cao.tastymatch;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ExpandableListView;
+import android.widget.ImageView;
+import android.widget.Spinner;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +27,15 @@ public class AddFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    private ImageView addImage;
+    private EditText addName;
+    private Spinner addKitchen;
+    private ExpandableListView addParameters;
+    private Button addSave, addReset;
+    private static final int GALLERYPICK = 1;
+    private static final int RESULT_OK = -1;
+    private Uri ImageURI;
 
     // TODO: Rename and change types of parameters
     private String mParam1;

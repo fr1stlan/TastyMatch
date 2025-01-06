@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.cao.tastymatch" />
-                  <option name="mobileSdkAppId" value="1:8076399877:android:391c2c8d4451c415b3d36c" />
-                  <option name="projectId" value="tastymatch-78410" />
-                  <option name="projectNumber" value="8076399877" />
+                  <option name="mobileSdkAppId" value="1:92570380724:android:2a6a174517f1e514256ae1" />
+                  <option name="projectId" value="tastymatch-25c6c" />
+                  <option name="projectNumber" value="92570380724" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
