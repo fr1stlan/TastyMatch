@@ -15,7 +15,7 @@
         android:title="Добавить" />
 
     <item android:id="@+id/profile"
-        android:icon="@drawable/profile_round_1342_svgrepo_com"
+        android:icon="@drawable/profile_icon"
         android:title="Профиль" />
 
 </menu>

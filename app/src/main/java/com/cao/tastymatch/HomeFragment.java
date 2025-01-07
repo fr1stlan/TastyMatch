@@ -22,37 +22,9 @@ public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
 
-    DatabaseReference ReceiptsRef;
-    private RecyclerView recyclerView;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        ReceiptsRef = FirebaseDatabase.getInstance().getReference().child("Receipts");
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        FirebaseRecyclerOptions<Receipts> options = new FirebaseRecyclerOptions.Builder<Receipts>()
-                .setQuery(ReceiptsRef, Receipts.class).build();
-
-        FirebaseRecyclerAdapter<Receipts, ReceiptViewHolder> adapter = new FirebaseRecyclerAdapter<Receipts, ReceiptViewHolder>(options) {
-            @Override
-            protected void onBindViewHolder(@NonNull ReceiptViewHolder holder, int position, @NonNull Receipts model) {
-                holder.receiptTitle.setText(model.getTitle());
-                holder.receiptKitchen.setText(model.getKitchen());
-                Picasso.get().load(model.getImage()).into(holder.receiptImage);
-            }
-
-            @NonNull
-            @Override
-            public ReceiptViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                return null;
-            }
-        };
     }
 
     @Override
