@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Кухня">
+
+        <item>Азиатская</item>
+        <item>Американская</item>
+        <item>Армянская</item>
+        <item>Белорусская</item>
+        <item>Греческая</item>
+        <item>Грузинская</item>
+        <item>Европейская</item>
+        <item>Индийская</item>
+        <item>Итальянская</item>
+        <item>Кавказская</item>
+        <item>Мексиканская</item>
+        <item>Немецкая</item>
+        <item>Русская</item>
+        <item>Средиземноморская</item>
+        <item>Тайская</item>
+        <item>Турецкая</item>
+        <item>Узбекская</item>
+        <item>Украинская</item>
+        <item>Французская</item>
+        <item>Японская</item>
+
+    </string-array>
+
+    <string-array name="Сложность">
+
+        <item>Новичок</item>
+        <item>Бывалый</item>
+        <item>Профессионал</item>
+
+    </string-array>
+
+</resources>
