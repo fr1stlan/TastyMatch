@@ -8,9 +8,9 @@ import java.io.ByteArrayOutputStream;
 public class ImageUtils {
     public static String bitmapToBase64(Bitmap bitmap) {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream); // Сжатие изображения
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
         byte[] byteArray = outputStream.toByteArray();
-        return Base64.encodeToString(byteArray, Base64.DEFAULT); // Преобразование в строку Base64
+        return Base64.encodeToString(byteArray, Base64.DEFAULT);
     }
 
     public static boolean isBase64Encoded(String string) {
@@ -18,7 +18,7 @@ public class ImageUtils {
             byte[] decodedBytes = android.util.Base64.decode(string, android.util.Base64.DEFAULT);
             return decodedBytes.length > 0;
         } catch (IllegalArgumentException e) {
-            return false; // Если строка не декодируется, значит это не Base64
+            return false;
         }
     }
 

@@ -19,6 +19,7 @@ import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ExpandableListView;
@@ -80,7 +81,8 @@ public class AddFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 if (binding.addEditTitle.getText().toString().isEmpty() || binding.addDescription.getText().toString().isEmpty() || binding.addEditTime.getText().toString().isEmpty()
-                        || binding.addReceiptEt.getText().toString().isEmpty() || isImageUploaded == false || binding.chipGroupIngredients.getChildCount() == 0) {
+                        || binding.addReceiptEt.getText().toString().isEmpty() || isImageUploaded == false || binding.chipGroupIngredients.getChildCount() == 0 || binding.addSpinnerKitchen.getSelectedItemPosition() == 0
+                        || binding.addSpinnerDifficult.getSelectedItemPosition() == 0) {
                     Toast.makeText(getContext(), "Поля не могут быть пустыми", Toast.LENGTH_SHORT).show();
                 } else {
                     addNewReceipt(binding.addEditTitle.getText().toString(), binding.addDescription.getText().toString(), binding.addSpinnerKitchen.getSelectedItem().toString(),

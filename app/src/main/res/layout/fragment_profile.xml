@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4B57AF"
+    android:background="@color/background"
     tools:context=".ProfileFragment">
 
 <RelativeLayout
@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:text="Name"
         android:textSize="25sp"
+        android:textColor="@color/black"
         android:layout_marginStart="30dp"
         android:layout_marginTop="80dp"
         android:layout_toEndOf="@+id/profile_userImage" />

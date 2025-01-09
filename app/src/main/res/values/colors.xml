@@ -6,4 +6,5 @@
     <color name="hint">#878787</color>
     <color name="blue">#027ACC</color>
     <color name="red">#D70000</color>
+    <color name="background">#77678EFF</color>
 </resources>

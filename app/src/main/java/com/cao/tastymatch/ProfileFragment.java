@@ -125,11 +125,9 @@ public class ProfileFragment extends Fragment {
                 .setValue(base64Image)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        // Уведомляем пользователя об успешном сохранении
-                        System.out.println("Profile image saved successfully!");
+
                     } else {
-                        // Логируем ошибку
-                        System.out.println("Error saving profile image: " + task.getException());
+
                     }
                 });
     }

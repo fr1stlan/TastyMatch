@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if (id == R.id.home) {
                     selected_fragment = new HomeFragment();
-                } else if (id == R.id.catalog) {
-                    selected_fragment = new CatalogFragment();
                 } else if (id == R.id.add) {
                     selected_fragment = new AddFragment();
                 } else if (id == R.id.profile) {

@@ -6,10 +6,6 @@
         android:icon="@drawable/baseline_home_24"
         android:title="Главная" />
 
-    <item android:id="@+id/catalog"
-        android:icon="@drawable/list_svgrepo_com"
-        android:title="Каталог" />
-
     <item android:id="@+id/add"
         android:icon="@drawable/baseline_add_circle_outline_24"
         android:title="Добавить" />
